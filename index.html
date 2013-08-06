@@ -1,181 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>My First Bitstarter</title>
-  <meta name = "viewport" content="width=device-width, initial-scale=1.0">
-  <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-  <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-  
-  <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
-  <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-  <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+   <meta charset="utf-8">
+    <title>SMART VEGAN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">    
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
 
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400,700,900|PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <style type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,300italic,400,700,900|PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <style type="text/css">
 
-    /* desktop */
-    @media (min-width: 980px) {
-    body {
-    padding-top: 60px;
-    }
-    .linediv-l {
-    border-right: 1px #ccc solid;
-    }
-    .linediv-r {
-    border-left: 1px #ccc solid;
-    }
-    }
+      /* desktop */
+      @media (min-width: 980px) {
+      body {
+      padding-top: 60px;
+      }
+      .linediv-l {
+      border-right: 1px #ccc solid;
+      }
+      .linediv-r {
+      border-left: 1px #ccc solid;
+      }
+      }
 
-    /* landscape phones and down */
-    @media (max-width: 480px) {
-    .copy {
-    padding: 2.5% 10%;
-    }
-    .linediv-l {
-    border-bottom: 1px #ccc solid;
-    }
-    .linediv-r {
-    border-top: 1px #ccc solid;
-    }
-    }
+      /* landscape phones and down */
+      @media (max-width: 480px) {
+      .copy {
+      padding: 2.5% 10%;
+      }
+      .linediv-l {
+      border-bottom: 1px #ccc solid;
+      }
+      .linediv-r {
+      border-top: 1px #ccc solid;
+      }
+      }
 
-    /*Main body and headings*/
-    body {
-    font-family: 'PT+Serif', serif;
-    font-weight:400;
-    color: #777;
-    }
-    .heading {
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-weight: 900;
-    color:#53962f;
-    
-    }
-    .veganheading {
-    font-size:45px;
-    }
-    .lightfont {
-    font-weight: 100;
-    
-    }
-    .heavyfont {
-    font-weight: 700;
-    }
-    .veganbrand, a.veganbrand  {
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    color:#53962f;
-    }
+      /*Main body and headings*/
+      body {
+      font-family: 'PT+Serif', serif;
+      font-weight:400;
+      color: #777;
+      }
+      .heading {
+      font-family: 'Lato', Helvetica, Arial, sans-serif;
+      text-align: center;
+      font-weight: 900;
+      color:#53962f;
+      
+      }
+      .veganheading {
+      font-size:45px;
+      }
+      .lightfont {
+      font-weight: 100;
+      
+      }
+      .heavyfont {
+      font-weight: 700;
+      }
+      .veganbrand, a.veganbrand  {
+      font-family: 'Lato', Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      color:#53962f;
+      }
 
-    .subheading {
-    font-family: 'Lato', Helvetica, Arial, sans-serif;
-    
-    text-align: center;
-    font-size: 18px;
-    color:#777;
-    }
+      .subheading {
+      font-family: 'Lato', Helvetica, Arial, sans-serif;
+      
+      text-align: center;
+      font-size: 18px;
+      color:#777;
+      }
 
-    .subheadinghigh {
+      .subheadinghigh {
 
-    font-weight1:500;
-    color:#53962f;
-    font-style: italic;
-    font-size: larger;
+      font-weight1:500;
+      color:#53962f;
+      font-style: italic;
+      font-size: larger;
 
-    }
+      }
 
-    .vegannav {
-    font-family: Lato;
-    font-weight: 100;
-    text-transform: uppercase;
+      .vegannav {
+      font-family: Lato;
+      font-weight: 100;
+      text-transform: uppercase;
 
-    }
+      }
 
-    .vegangreen {
-    color:#53962f;
-    }
+      .vegangreen {
+      color:#53962f;
+      }
 
-    .veganlead {
-    font-weight: 300;
-    }
+      .veganlead {
+      font-weight: 300;
+      }
 
-    p.lead {
-    padding-top: 1.5%;
-    font-size: 24px;
-    line-height: 30px;
-    }
-    p {
-    font-size: 18px;
-    line-height: 24px;
-    }
+      p.lead {
+      padding-top: 1.5%;
+      font-size: 24px;
+      line-height: 30px;
+      }
+      p {
+      font-size: 18px;
+      line-height: 24px;
+      }
 
-    h3.vegan {
-    font-family: Lato;
-    font-weight: 100;
-    text-transform: uppercase;
-    }
-    .accordionvegan {
-    font-family: Lato;
-    font-weight: 300;
-    }
+      h3.vegan {
+      font-family: Lato;
+      font-weight: 100;
+      text-transform: uppercase;
+      }
+      .accordionvegan {
+      font-family: Lato;
+      font-weight: 300;
+      }
 
-    a {
-    color:#53962f;
-    }
-
-
-    /*Video pitch and Action*/
-    .pitch {
-    padding: 2.5% 0%;
-    }
-    .order {
-    padding: 2% 0%;
-    }
-    .actions {
-    
-    padding: 3% 0%;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    border: 1px #ccc solid;
-    }
-
-    .video, .thermometer, .order, .social, .statistics {
-    text-align: center;
-    }
-
-    .statistics h3, .statistics p {
-    color: #666;
-    font-family: Lato;
-    font-weight: 100;
-    }
-
-    /*Marketing copy and Footer*/
-    .copy {
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    text-align: justify;
-    }
-    .asset {
-    padding: 2.5% 0%;
-    }
-    .footer {
-    color: #cccccc;
-    text-align: center;
-    }
-    .footer p {
-    font-size: 11px;
-    }
-    .footer a {
-    color: #ccccff;
-    }
+      a {
+      color:#53962f;
+      }
 
 
-    </style>
+      /*Video pitch and Action*/
+      .pitch {
+      padding: 2.5% 0%;
+      }
+      .order {
+      padding: 2% 0%;
+      }
+      .actions {
+      
+      padding: 3% 0%;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      border: 1px #ccc solid;
+      }
+
+      .video, .thermometer, .order, .social, .statistics {
+      text-align: center;
+      }
+
+      .statistics h3, .statistics p {
+      color: #666;
+      font-family: Lato;
+      font-weight: 100;
+      }
+
+      /*Marketing copy and Footer*/
+      .copy {
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+      text-align: justify;
+      }
+      .asset {
+      padding: 2.5% 0%;
+      }
+      .footer {
+      color: #cccccc;
+      text-align: center;
+      }
+      .footer p {
+      font-size: 11px;
+      }
+      .footer a {
+      color: #ccccff;
+      }
+
+
+      </style>
 </head>
 
 <body>
@@ -184,7 +183,7 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <button type="button" class="btn btn-navbar" data-toggle="collapsible" data-target=".nav-collapse">
+      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
 	<span class="icon-bar"></span>
@@ -201,6 +200,10 @@
       </div>
     </div>
 </div>
+
+
+
+
 
 <!-- Row fluid layout inside containers to achieve resizable layout -->
 <div class="container">
@@ -219,53 +222,55 @@
 
   <div class="row-fluid pitch">
     <div class="span5 offset1 video">
-      <img src="http://i.imgur.com/ySDgJge.png" title="Hosted by imgur.com" />
+      <img src="http://i.imgur.com/ySDgJge.png" ALT="Guide to Vegan Life" title="Hosted by imgur.com" />
     </div>
 
 
     <!-- action -->
     <div class="span5 actions">
-      <div class="span8 offset2">
-	<div class="statistics">
-	  <div class="span4">
-	    <div class="linediv-l">
-	      <h3>1000</h3> <p>backers</p>
+      <div class="row-fluid">
+	<div class="span8 offset2">
+	  <div class="row-fluid statistics">
+	    <div class="span4">
+	      <div class="linediv-l">
+		<h3>1000</h3> <p>backers</p>
+		</div>
 	      </div>
+	    <div class="span4">
+	      <div class="linediv-c">
+		<h3>6000</h3> <p>of $10,000</p>
+		</div>
 	    </div>
-	  <div class="span4">
-	    <div class="linediv-c">
-	      <h3>6000</h3> <p>of $10,000</p>
-	      </div>
+	    <div class="span4">
+	      <div class="linediv-r">
+		<h3>10</h3> <p>days left</p>
+		</div>
+	    </div>
+	    </div>
 	  </div>
-	  <div class="span4">
-	    <div class="linediv-r">
-	      <h3>10</h3> <p>days left</p>
-	      </div>
+
+	<div class="row-fluid">
+	  <div class="span10 offset1">
+	    <!-- Bootstrap progress bar -->
+	    <div class="thermometer progress active">
+	      <div class="bar bar-success" style="width:60%"></div>
+	      <div class="bar bar-warning" style="width:40%"></div>
+	    </div>
+	    </div>
 	  </div>
+	<div class="row-fluid">
+	  <div class="span6 offset3 order">
+	    <!-- Bootstrap button standard -->
+	    <button class="btn btn-success btn-large">Preorder</button>
+	    
+	    </div>
 	  </div>
+	<div class="row-fluid">
+	  <div class="span8 offset2 social">
+	    <!-- Bootstrap button standard -->
+	    <button class="bt</div>
+			   </div>
 	</div>
-
-      <div class="span10 offset1">
-	<!-- Bootstrap progress bar -->
-	<div class="thermometer progress active">
-	  <div class="bar bar-success" style="width:60%"></div>
-	  <div class="bar bar-warning" style="width:40%"></div>
-	</div>
-	</div>
-
-      <div class="span6 offset3 order">
-	<!-- Bootstrap button standard -->
-	<button class="btn btn-success btn-large">Preorder</button>
-	
-	</div>
-
-      <div class="span8 offset2 social">
-	<!-- Bootstrap button standard -->
-	<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
-	<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
-	</div>
-
-
       </div>
 
     </div>
@@ -273,7 +278,7 @@
   <!-- Marketing -->
   <div class="row-fluid section1">
     <div class="span5 offset1 asset">
-      <img src="http://i.imgur.com/pYzzXps.png" title="Hosted by imgur.com"/>
+      <img src="http://i.imgur.com/pYzzXps.png" ALT="Vegan Couture" title="Hosted by imgur.com"/>
     </div>
     <div class="span5 copy">
       <h3 class="vegan vegangreen">Vegan <span class="heavyfont">Couture</span></h3>
@@ -291,7 +296,7 @@
       </div>
 
     <div class="span5 asset">
-      <img src="http://i.imgur.com/F7L15Rc.png" title="Hosted by imgur.com"/>
+      <img src="http://i.imgur.com/F7L15Rc.png" ALT="Vegan Gourmet Cousine" title="Hosted by imgur.com"/>
     </div>
     
     </div>
